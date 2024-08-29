@@ -1,0 +1,122 @@
+   .add__task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 20px;
+    background-color: #edeef0;
+    border-radius: 30px;
+    padding-left: 1rem;
+  }
+  
+  .task__application--title {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+  }
+  
+  .color-inner2 {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .add__task input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 15px 0;
+  }
+  
+  .add__task input[type="text"] {
+    width: 85%;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .btn {
+    border: none;
+    outline: none;
+    background-color: #04aa6d;
+    height: 55px;
+    width: 55px;
+    color: #fff;
+    font-size: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* Responsive adjustments for tablets and mobile devices */
+  @media (max-width: 1024px) {
+    .add__task {
+      padding-left: 0.8rem;
+      gap: 0.8rem;
+      margin-bottom: 15px;
+    }
+  
+    .add__task input[type="text"] {
+      width: 80%;
+      padding: 10px 8px;
+    }
+  
+    .btn {
+      height: 50px;
+      width: 50px;
+      font-size: 35px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .add__task {
+      padding-left: 0.6rem;
+      gap: 0.6rem;
+      margin-bottom: 10px;
+    }
+  
+    .add__task input {
+      font-size: 18px;
+      padding: 12px 0;
+    }
+  
+    .add__task input[type="text"] {
+      width: 75%;
+      padding: 10px 8px;
+    }
+  
+    .btn {
+      height: 45px;
+      width: 45px;
+      font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .add__task {
+      padding-left: 0.5rem;
+      gap: 0.5rem;
+      margin-bottom: 8px;
+    }
+  
+    .add__task input {
+      font-size: 16px;
+      padding: 10px 0;
+    }
+  
+    .add__task input[type="text"] {
+      width: 70%;
+      padding: 8px 6px;
+    }
+  
+    .btn {
+      height: 40px;
+      width: 40px;
+      font-size: 25px;
+    }
+  }
+  

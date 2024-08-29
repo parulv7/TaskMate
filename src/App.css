@@ -1,0 +1,68 @@
+
+/* @import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Varela+Round&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.task-application {
+  background-color: #fff;
+  width: 500px;
+  margin-inline: auto;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 12px 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+/* Responsive adjustments for tablets */
+@media screen and (max-width: 1024px) {
+  .task-application {
+    width: 450px;
+  }
+}
+
+/* Responsive adjustments for small tablets and large phones */
+@media screen and (max-width: 768px) {
+  .task-application {
+    width: 400px;
+    padding: 0.8rem;
+  }
+}
+
+/* Responsive adjustments for mobile phones */
+@media screen and (max-width: 600px) {
+  .task-application {
+    width: 360px;
+    padding: 0.6rem;
+  }
+}
+
+/* Additional adjustments for very small devices */
+@media screen and (max-width: 480px) {
+  .task-application {
+    width: 320px;
+    padding: 0.5rem;
+  }
+}

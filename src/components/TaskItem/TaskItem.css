@@ -1,0 +1,50 @@
+.task__list {
+  background-color: #edeef0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.task__list--conent,
+.task__list--button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.task__edit,
+.task__delete {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.task__li {
+  font-size: 20px;
+  word-break: break-all;
+  max-width: 360px;
+}
+
+.complete {
+  text-decoration: line-through;
+  font-style: italic;
+  color: red;
+}
+.delete_icon{
+  color: rgb(210, 12, 12);
+}
+.edit_icon{
+  color: rgb(29, 130, 103);
+}
+.save_icon{
+  color: #00A3FF;
+} 
+
+ 
